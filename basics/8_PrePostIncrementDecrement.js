@@ -1,0 +1,68 @@
+//1. Post-increment: ++
+let a = 1
+let  b = a++;
+console.log(a); //2
+console.log(b); //1
+console.log("------");
+
+let m = -99;
+let n = m++;
+console.log(m); //-98
+console.log(n); //-99
+console.log("------");
+
+//2. Pre-increment : ++
+let c = 1;
+let d = ++c;
+console.log(c); //2
+console.log(d); //2
+console.log("------");
+
+let x = -999;
+let y = ++x;
+console.log(x); // -998
+console.log(y); //-998
+console.log("------");
+
+//3. Post-decrement: --
+let p = 2;
+let q = p--;
+console.log(p); //1
+console.log(q); //2
+console.log("------");
+
+let k = -89;
+let h = k--;
+console.log(k); -90
+console.log(h); -89
+console.log("------");
+
+//4. pre decrement: --
+let v = 2;
+let z = --v;
+console.log(v); //1
+console.log(z); //1
+console.log("------");
+
+let total = 100;
+console.log(total++);//100
+console.log(total);//101
+console.log("------");
+
+let num = 1000;
+console.log(++num);
+console.log(num);
+console.log("------");
+
+let st = '5';//5
+console.log(++st); //6
+console.log("------");
+
+let tr = '5';
+console.log(tr--); //5
+console.log("------");
+
+console.log('vivek' + +'Test');//vivek+NaN=>vivekNaN
+console.log("------");
+
+

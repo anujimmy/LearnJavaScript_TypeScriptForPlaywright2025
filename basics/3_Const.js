@@ -7,9 +7,11 @@ let salary = 500;
 console.log("total yearly salary - " + salary*months);
 
 // days = 31; 
-console.log("1. Reassignment of const variables is not possible - " + days);
+// console.log(days)
+console.log("1. Reassignment of const variables is not possible - ");
 console.log("Reassignment -  TypeError - assignment to const variable - Error should be displayed");
 // const days = 8;
+// console.log(days);
 console.log("2. Redeclaration of identifiers is not possible");
 console.log("Redeclaration - SyntaxError: Identifier  has already been declared");
 console.log("3. hoisting is anot allowed");
