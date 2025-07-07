@@ -71,8 +71,3 @@ console.log("------");
 let tr = '5';
 console.log(tr--); //5
 console.log("------");
-
-console.log('vivek' + +'Test');//vivek+NaN=>vivekNaN
-console.log("------");
-
-

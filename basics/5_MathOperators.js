@@ -46,6 +46,7 @@ console.log("<---UnaryPlus '+' --->");
 console.log(+"42" + 5); //convert string to number
 console.log(+'800' + +'200');
 console.log(+800 + 200);
+console.log('vivek' + +'Test');//vivek+NaN=>vivekNaN
 
 console.log("<---UnaryNegation '-' --->");
 console.log(-"42" + 2);
