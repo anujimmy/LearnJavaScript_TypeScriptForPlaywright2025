@@ -1,4 +1,4 @@
-this project involves with my learning journey of Language JavaScript to be used in PlayWright & Cypress
+this project involves with my learning journey of Language - JavaScript & typescript to be used in PlayWright & Cypress
 
 
 
