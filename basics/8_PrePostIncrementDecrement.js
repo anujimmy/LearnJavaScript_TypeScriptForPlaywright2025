@@ -1,4 +1,5 @@
 //1. Post-increment: ++
+console.log("1. Post-increment: I++");
 let a = 1
 let  b = a++;
 console.log(a); //2
@@ -12,6 +13,7 @@ console.log(n); //-99
 console.log("------");
 
 //2. Pre-increment : ++
+console.log("2. Pre-increment : ++I");
 let c = 1;
 let d = ++c;
 console.log(c); //2
@@ -25,6 +27,7 @@ console.log(y); //-998
 console.log("------");
 
 //3. Post-decrement: --
+console.log("3. Post-decrement: I--");
 let p = 2;
 let q = p--;
 console.log(p); //1
@@ -38,12 +41,19 @@ console.log(h); -89
 console.log("------");
 
 //4. pre decrement: --
+console.log("4. pre decrement: --I");
 let v = 2;
 let z = --v;
 console.log(v); //1
 console.log(z); //1
 console.log("------");
 
+let i = 10;
+let j = --i;
+console.log(i);
+console.log(j);
+
+console.log("Examples :-");
 let total = 100;
 console.log(total++);//100
 console.log(total);//101
