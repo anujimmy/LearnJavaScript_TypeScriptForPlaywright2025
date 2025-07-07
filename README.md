@@ -1,9 +1,13 @@
 # Learn JvaScript, TypeScript For PlayWright 2025
 
-this project showcases my learning journey of coding language - JavaScript & TypeScript to be used in PlayWright & Cypress
-Editor used : Microsoft visual Studio
-Javascript engine : Node.js runs on V8 javascript engine(core of Google Chrome)
-Author : anu jimmy
+this project showcases my learning journey of coding language - JavaScript & TypeScript to be used in PlayWright & Cypress.
+
+#### Details :
+    Editor used : Microsoft visual Studio
+    Javascript engine : Node.js runs on V8 javascript engine(core of Google Chrome)
+    Node.js version: v22.17.0
+    npm version : 10.9.2
+    Author : Anu Jimmy
 
 ## Folder Structure :
 
@@ -25,3 +29,7 @@ Author : anu jimmy
        8. 7_ASCIItest.js              -> how to retrieve ASCII code of character in a String
 
        9. 8_PreVsPost_IncrementNDecrement.js -> pre/post-increment & pre/post-decrement
+
+
+
+
