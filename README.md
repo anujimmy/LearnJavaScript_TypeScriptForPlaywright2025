@@ -1,12 +1,13 @@
-***# Learn JvaScript, TypeScript For PlayWright 2025***
-this project involves with my learning journey of Language JavaScript to be used in PlayWright & Cypress
+# Learn JvaScript, TypeScript For PlayWright 2025
+
+this project showcases my learning journey of coding language - JavaScript & TypeScript to be used in PlayWright & Cypress
 Editor used : Microsoft visual Studio
 Javascript engine : Node.js runs on V8 javascript engine(core of Google Chrome)
 Author : anu jimmy
 
-**## Folder Structure :**
+## Folder Structure :
 
-**### 01_Basics :**
+### 01_Basics :
        1. 0_test.js                   -> to print something in console.
 
        2. 1_Var.js                    -> new variables with KeyWord : var with initialization, declaration & re-declaration,assignment,hoisting.
