@@ -1,20 +1,12 @@
 {
   "name": "learnjavascript2025",
   "version": "1.0.0",
+  "description": "this is my practice project to learn JavaScript",
   "main": "index.js",
   "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anujimmy/LearnJS_PW_2025.git"
-  },
-  "author": "anu jimmy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anujimmy/LearnJS_PW_2025/issues"
-  },
-  "homepage": "https://github.com/anujimmy/LearnJS_PW_2025#readme",
-  "description": ""
+  "author": "Anu Jimmy",
+  "license": "ISC"
 }
