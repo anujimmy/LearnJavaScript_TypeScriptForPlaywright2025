@@ -1,7 +1,7 @@
 {
   "name": "learnjavascript2025",
   "version": "1.0.0",
-  "description": "this is my practice project to learn JavaScript",
+  "description": "this is my project to learn JavaScript, TypeScript in Visual Studio for MS Tools - PlayWright",
   "main": "index.js",
   "type":"module",
   "scripts": {
