@@ -1,4 +1,4 @@
-# Learn JvaScript, TypeScript For PlayWright 2025
+# Learn JavaScript, TypeScript For PlayWright 2025
 
 this project showcases my learning journey of coding language - JavaScript & TypeScript to be used in PlayWright & Cypress.
 
