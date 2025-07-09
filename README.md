@@ -28,8 +28,8 @@ this project showcases my learning journey of coding language - JavaScript & Typ
 
        8. 7_ASCIItest.js              -> how to retrieve ASCII code of character in a String
 
-       9. 8_PreVsPost_IncrementNDecrement.js -> pre/post-increment & pre/       post-decrement
-            8a_PRACTICE_Increment_Decrement_post_pre.js -> More examples for practice on pre/post increment/decrement combinations
+       9. 8_PreVsPost_IncrementNDecrement.js            -> pre/post-increment & pre/post-decrement
+          8a_PRACTICE_Increment_Decrement_post_pre.js   -> More examples for practice on pre/post increment/decrement combinations
 
        10. 9_Template_Literals.js           -> template literals `, Escape characters "/", placeholders ${}
 
