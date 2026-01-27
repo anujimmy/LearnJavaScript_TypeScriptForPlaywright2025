@@ -35,14 +35,20 @@ this project showcases my learning journey of coding language - JavaScript & Typ
 
        11. 10_BooleanVariables.js           -> more about boolean variables
 
-       12. 11_Loop_Conditional_If Else.js   -> If Else 
-            11a_Loop_MoreAbout_If_ElseIf.js -> more details on if else loop
-       
-       13. 12_Loop_Nested_If_Else_Student.js    -> Nested If Else loop
-       
-       14. 13_Loop_SwitchCase.js            -> Switch Case empty 
+       12. 11_Loop_Conditional_If Else.js       -> If Else 
+            11a_Loop_MoreAbout_If_ElseIf.js     -> more details on if else loop
+            11b_Loop_Nested_If_Else_Student.js  -> Nested If Else loop
+            11c_Loop_SwitchCase.js              -> Switch Case - with Browser
 
-       15. 
+       13. 12_Loop_While.js                     -> While loop - when the iterations are not known
+       
+       14. 13_For_Loop.js                       -> For Loop - whne the iterations are known & fixed.
+       
+       
+       TruthyFalsy.js-> 8 falsy values except these 8   all are considered as true 
+
+       16. 
+
        
        
        ComparisonOp_DoubleEqualsVsTripleEquals.js    -> == & === comparison operator
