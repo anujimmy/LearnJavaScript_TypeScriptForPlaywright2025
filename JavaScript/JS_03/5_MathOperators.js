@@ -18,6 +18,7 @@ console.log('5' *  2);
 console.log("7" * "10");
 console.log("java" * "script"); //NaN
 console.log("java" * "script" - 10); //NaN
+console.log("anu" * 3 );
 
 console.log("<---division --->");
 console.log(6 / 2);
@@ -55,6 +56,10 @@ console.log(-'hello');//NaN
 
 console.log(+'100');
 console.log(-'100');
+
+
+let price = '1000';
+console.log(price * 5);
 
 
 

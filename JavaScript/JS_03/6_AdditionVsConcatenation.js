@@ -20,6 +20,7 @@ console.log(a + b + x + y + (a + b)); //602helloJS602
 
 console.log("A is "+ a);
 console.log("B is "+ b);
+console.log("Sum of A & B is " + a+b);
 console.log("Sum of A & B is " + (a+b));
 
 console.log(true + 'hello' + false);
