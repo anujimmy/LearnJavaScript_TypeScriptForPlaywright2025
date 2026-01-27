@@ -11,4 +11,4 @@ console.log(str.charCodeAt(10)); //NaN length is 10 so max index is 9
 
 //a-z: 97 to 122
 //A-Z: 65 to 90
-//0-9: 48 to 57
+//0-9: 48 to 57 
