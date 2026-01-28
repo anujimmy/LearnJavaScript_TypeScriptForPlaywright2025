@@ -80,6 +80,11 @@ for(let num = 1;num<=10;num++){
 //5. total number of links in any page
 //6. Calendar handling
 //7. Carousel handling 
+//8. get the data from DB-table
+//9. progress bar : 0 to 100% : time taken
+//10. file downloading / upload : time taken to download it
+//11. Wait for the dynamic alert/pop up/advertisement
+//12. EOF : end of file 1 to n
 
 
 // Use case for for Loop : when number of iterations are fixed

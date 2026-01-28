@@ -9,9 +9,9 @@ console.log("=============");
 
 let j1 = 0;
 while (j1< 10){
-    console.log(j);
+    console.log(j1);
     if (j1 === 5){
-        console.log("BYE");
+        console.log("BYE" + j1);
         break;
     }
     ++j1;
