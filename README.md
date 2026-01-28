@@ -25,12 +25,6 @@ this project showcases my learning journey of coding language - JavaScript & Typ
 
    JS_06    - Loops - While, Do-while & For loop
 
-       
-       
-       
-       
-       
-       ComparisonOp_DoubleEqualsVsTripleEquals.js    -> == & === comparison operator
 
        
 
