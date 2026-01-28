@@ -14,12 +14,16 @@ this project showcases my learning journey of coding language - JavaScript & Typ
 ### JavaScript :
 
    JS_01_02 - var, let & const
+
    JS_03    - datatypes, operators, addition vs concatenation, ASCII, Post&Pre Increment/Decrement
+
    JS_04    - template literals, boolean variables,Loose Equality vs Strict Equality
             - Loops - If else, nested if
             - pre/post increment/decrement practice
+
    JS_05    - Loops - Switch case, TruthyFalsy, BigInteger    
-   JS_06    - Loops - While 
+
+   JS_06    - Loops - While, Do-while & For loop
 
        
        
