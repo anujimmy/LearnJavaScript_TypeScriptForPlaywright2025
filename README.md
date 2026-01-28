@@ -11,27 +11,32 @@ this project showcases my learning journey of coding language - JavaScript & Typ
 
 ## Folder Structure :
 
-### 01_Basics :
-       1. 0_test.js                   -> to print something in console.
+### JavaScript :
 
-       2. 1_Var.js                    -> new variables with KeyWord : var with initialization, declaration & re-declaration,assignment,hoisting.
+    JS_01_01 - var, let & const
+       0_test.js                   -> to print something in console.
 
-       3. 2_Let.js                    -> new variables with KeyWord : let with initialization, declaration & re-declaration,assignment,hoisting. 
+       1_Var.js                    -> new variables with KeyWord : var with initialization, declaration & re-declaration,assignment,hoisting.
 
-       4. 3_Const.js                  -> new variables with KeyWord : const with initialization, declaration & re-declaration,assignment,hoisting.
+       2_Let.js                    -> new variables with KeyWord : let with initialization, declaration & re-declaration,assignment,hoisting. 
 
-       5. 4_DataTypes.js              -> Primitive(Number, String,Boolean, undefined, null & BigInt) & Non-Primitive(Object, Array, Function). All except BigInt, Array & Function is covered here.
+       3_Const.js                  -> new variables with KeyWord : const with initialization, declaration & re-declaration,assignment,hoisting.
 
-       6. 5_MathOperators.js          -> Addition, Subtraction, Multiplication, Division, Modulus, Power Exponential, UnaryPlus & UnaryNegation.
+    JS_03 - datatypes, operators, addition vs concatenation, ASCII
 
-       7. 6_AdditionVsConcatenation.js-> Addition versus Concatenation
+       4_DataTypes.js              -> Primitive(Number, String,Boolean, undefined, null & BigInt) & Non-Primitive(Object, Array, Function). All except BigInt, Array & Function is covered here.
 
-       8. 7_ASCIItest.js              -> how to retrieve ASCII code of character in a String
+       5_MathOperators.js          -> Addition, Subtraction, Multiplication, Division, Modulus, Power Exponential, UnaryPlus & UnaryNegation.
 
-       9. 8_PreVsPost_IncrementNDecrement.js            -> pre/post-increment & pre/post-decrement
+       6_AdditionVsConcatenation.js-> Addition versus Concatenation
+
+       7_ASCIItest.js              -> how to retrieve ASCII code of character in a String
+
+       8_PreVsPost_IncrementNDecrement.js            -> pre/post-increment & pre/post-decrement
           8a_PRACTICE_Increment_Decrement_post_pre.js   -> More examples for practice on pre/post increment/decrement combinations
+    JS_04 - template literals
 
-       10. 9_Template_Literals.js           -> template literals `, Escape characters "/", placeholders ${}
+       9_Template_Literals.js           -> template literals `, Escape characters "/", placeholders ${}
 
        11. 10_BooleanVariables.js           -> more about boolean variables
 

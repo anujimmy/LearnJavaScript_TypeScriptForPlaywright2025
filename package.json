@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "this is my project to learn JavaScript, TypeScript in Visual Studio for MS Tools - PlayWright",
   "main": "index.js",
-  "type":"commonjs",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

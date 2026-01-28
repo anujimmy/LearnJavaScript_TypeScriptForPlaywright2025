@@ -1,9 +1,9 @@
-let strBrowser = "edge";
+let strBrowser = "chromium";
 
 
 switch (strBrowser.toLowerCase().trim()) {
     //console.log("if control comes here");
-    case "chrome":
+    case "chrome","chromium":
         console.log("chrome is launched");  
         break;
     case "firefox":

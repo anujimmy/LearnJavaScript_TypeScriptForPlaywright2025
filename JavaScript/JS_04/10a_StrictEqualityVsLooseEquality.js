@@ -34,4 +34,13 @@ else {
     console.log('close browser');
 }
 
+let bestpractice = `-------Best Practice :- use === by default,
+use  == only when type coercion is required-------`;
+
+let sp_Exception = `=======Exception :- null == undefined is true 
+type od null is object & type of undefined is undefined======`;
+
+console.log(bestpractice);
+console.log(sp_Exception);
+
 
