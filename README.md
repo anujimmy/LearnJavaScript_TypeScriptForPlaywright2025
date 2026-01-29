@@ -25,6 +25,12 @@ this project showcases my learning journey of coding language - JavaScript & Typ
 
    JS_06    - Loops - While, Do-while & For loop
 
+   JS_07    - Arrays Declaration 
+            - Manipulation methods - push, unshift, pop, shift, reverse, join , concat & spread operator
+            - Miscellaneous - process.stdout.write & String.raw
+   
+   JS_08    -
+
 
        
 
