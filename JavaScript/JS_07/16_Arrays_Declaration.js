@@ -24,6 +24,10 @@ console.log(emp_Data);
 let num = new Array(100, 200, 300, 400, 500);
 console.log(num);
 
+let anu = new Array(5); //creates a empty array of 5.
+console.log(anu);
+console.log(anu.length); //5 
+
 let test = Array.of(10, 20, 30, 40, 50);
 console.log(test);
 console.log(test[0]);

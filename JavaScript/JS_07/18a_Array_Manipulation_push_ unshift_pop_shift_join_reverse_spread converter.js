@@ -92,5 +92,8 @@ console.log(arr3);
 let arr4 = arr1.concat(arr2);
 console.log(arr4);
 
-console.log(arr4 === arr3); //=== operator compares array references, not their contents.
+console.log(arr4 === arr3); //false
 
+console.log([] = ""); //[] -> "" -> 0 == 0 = true
+
+//console.log([] == []);

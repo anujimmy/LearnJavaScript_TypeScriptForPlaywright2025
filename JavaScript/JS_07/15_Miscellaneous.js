@@ -24,3 +24,8 @@ console.log(path3);
 
 console.log('======');
 
+
+console.log([] == 0); //true []-> ''-> 0 == 0 true
+console.log([] == []);// [] are non primitive and therefore object is the type
+// both objects are at different locations & JS checks the memory address.
+//triple equals for [] === [] -> syntax error
