@@ -29,7 +29,9 @@ this project showcases my learning journey of coding language - JavaScript & Typ
             - Manipulation methods - push, unshift, pop, shift, reverse, join , concat & spread operator
             - Miscellaneous - process.stdout.write & String.raw
    
-   JS_08    -
+   JS_08    - Array manipulation - split, slice,splice, indexOf, includes, lastIndexOf
+
+   JS_09    - Objects - Introduction, creation using class, changing the reference, Immutable Objects (freeze vs seal) 
 
 
        
