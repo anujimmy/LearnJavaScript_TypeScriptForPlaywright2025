@@ -51,3 +51,10 @@ let product = ["macbook","canon","samsung","ikea","iphone"];
 product.splice(3,1,"apple");
 console.log(product);
 
+product = ["macbook","canon","samsung","ikea","iphone"];
+product.splice(-6,2); //start > range is considered as 0
+console.log(product);
+
+
+
+

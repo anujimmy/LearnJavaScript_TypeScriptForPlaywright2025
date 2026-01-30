@@ -35,3 +35,6 @@ console.log(test[0]);
 // dynamic array : in JS everything is dynamic by default
 // no concept of fixed size array
 // go to Array_Manipulation.js 
+
+let testing = new Array(10,);
+console.log(testing.length);
