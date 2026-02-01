@@ -5,7 +5,6 @@ let user ={
     city : 'LA'
 };
 
-console.log(user);
 
 //1. freeze();
 //Object.freeze(user); //makes object immuatable : cannot add/update/delete anything
@@ -18,6 +17,13 @@ Object.seal(user);
 user.city = 'SFO';
 console.log(user);
 
-//delete user.city; // type Error
-user.salary = 100; // type Error - object is not extensible
+//delete user.city; // type Error - cannot delete property
+//user.salary = 100; // type Error - object is not extensible
+
+let user2 ={...user};
+console.log(user);
+
+user2.name = 'anu jimmy';
+console.log('after change in user2 ,user 1 is ' + user2.name);
+console.log(user.name);
 
