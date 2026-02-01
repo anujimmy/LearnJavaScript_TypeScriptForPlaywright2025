@@ -45,4 +45,11 @@ let person = {
 person = null;
 
 console.log(person); //null
-console.log(person.name); //typeError - cannot read properties of null
+//console.log(person.name); //typeError - cannot read properties of null
+
+let person1 = {
+    name: 'hermione',
+    age : 18
+};
+
+console.log(person == person1); //always false for objects.

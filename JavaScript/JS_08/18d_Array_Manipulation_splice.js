@@ -40,10 +40,10 @@ months.splice(3,3,"HERBST");
 console.log(months);
 
 let months1 = ['jan','feb','mar','apr','may','jun','july','aug','sept','oct','nov','dec'];
-//replace apr to jun with herbst
-months1.splice(3,3,"FRUHLING");
+//replace march to mai with fruhling
+months1.splice(2,3,"FRUHLING");
 console.log(months1);
-let replace1 = months1.splice(4,6,"SOMMER","HERBST","WINTER")
+let replace1 = months1.splice(4,5,"SOMMER","HERBST",)
 console.log(months1);
 console.log(replace1);
 
@@ -56,5 +56,24 @@ product.splice(-6,2); //start > range is considered as 0
 console.log(product);
 
 
+product = ["macbook","canon","samsung","ikea","iphone"];
+product.splice(-2,5); //start > range is considered as 0
+console.log(product);
+
+let alpha = ['a','b','c','d','e','f'];
+alpha.splice(alpha.length-1,'0',2);
+console.log(alpha);
+console.log(alpha.length);
+
+let n1 = [10,20,30];
+n1.splice(n1.length,0,40,50);
+console.log(n1);
+
+let day = ['mon','tue','wed','thur','fri','sat','sun'];
+day.splice(5,2,"weekend");
+console.log(day);
 
 
+let userData = ['header','data1','data2','data3','footer'];
+let data = userData.slice(1,-1);
+console.log(data);

@@ -1,7 +1,7 @@
 //creating the object using the class
 
 class Product{
-    constructor(name,price){
+    constructor(name,price){ // only 1 constructor is allowed
         this.name = name;
         this.price = price;
     }
