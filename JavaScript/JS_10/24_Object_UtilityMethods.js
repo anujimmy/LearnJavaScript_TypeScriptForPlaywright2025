@@ -9,6 +9,7 @@ console.log('----- Object.keys - to get all keys in an array -----');
 let wiz_Keys = Object.keys(wizard);
 console.log(wiz_Keys);
 console.log(wiz_Keys.length);
+console.log(typeof(wiz_Keys[0]));
 
 console.log('----- Object.values - to get all values in an array -----');
 let wiz_Values = Object.values(wizard);

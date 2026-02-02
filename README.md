@@ -33,6 +33,8 @@ this project showcases my learning journey of coding language - JavaScript & Typ
 
    JS_09    - Objects - Introduction, creation using class, changing the reference, Immutable Objects (freeze vs seal) 
 
+   JS_10    - Objects - Shallow copying using Spread operator, Utility methods(Object.keys,.values,.entries),
+                Nested Objects & Object to JSON (Stringify) , JSON to Object(Parse)
 
        
 
