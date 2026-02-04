@@ -1,14 +1,14 @@
-function getProductDetails(objRefProductData){   // objRefProductData = product
+function getProductDetails(objRefProductData) {   // objRefProductData = product
     console.log(objRefProductData);
     objRefProductData.price = 2000; // 2 references for same object - objRefProductData & product
 }
 
-let product ={
-    productType : 'laptop',
-    brand : 'apple',
-    name : 'macbook Pro',
-    stock : 'in-stock',
-    price : 1000
+let product = {
+    productType: 'laptop',
+    brand: 'apple',
+    name: 'macbook Pro',
+    stock: 'in-stock',
+    price: 1000
 
 }
 

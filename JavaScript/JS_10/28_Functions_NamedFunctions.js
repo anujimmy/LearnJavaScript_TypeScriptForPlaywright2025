@@ -68,9 +68,9 @@ function launchBrowser(strBrowserName) {
 }
 let isBrowserlaunched = launchBrowser('safari');
 console.log(isBrowserlaunched);
-if(isBrowserlaunched){
+if (isBrowserlaunched) {
     console.log('launch URL');
 }
-console.log(typeof(launchBrowser));
+console.log(typeof (launchBrowser));
 
 console.log('--------------------------');

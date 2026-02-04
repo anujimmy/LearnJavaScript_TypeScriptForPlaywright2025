@@ -1,8 +1,9 @@
-let wizard ={ name : 'Harry',
-    house : 'slytherin'
+let wizard = {
+    name: 'Harry',
+    house: 'slytherin'
 };
 
-let wizard1 ={ ...wizard};
+let wizard1 = { ...wizard };
 
 wizard1.house = 'gryffindor';
 
@@ -12,7 +13,7 @@ console.log(wizard1.house);
 //above code created 2 objects and when one is changes it doesnt impact the other one.
 console.log('==================');
 let u1 = {
-    name : 'ron',
+    name: 'ron',
     house: 'gryffindor'
 };
 

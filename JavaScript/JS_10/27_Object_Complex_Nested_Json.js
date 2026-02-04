@@ -59,4 +59,4 @@ let compJson = `{
 let comp = JSON.parse(compJson);
 console.log(comp);
 console.dir(comp, { depth: null }); // Print with full depth
-console.log(typeof(comp));          // "object"
+console.log(typeof (comp));          // "object"

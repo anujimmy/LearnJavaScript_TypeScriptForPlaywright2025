@@ -3,14 +3,14 @@ let wizard = {
     age: 108,
     school: 'hogwarts',
     role: 'headmaster',
-    isActive : true,
+    isActive: true,
     pet: 'phoenix'
 };
 console.log('----- Object.keys - to get all keys in an array -----');
 let wiz_Keys = Object.keys(wizard);
 console.log(wiz_Keys);
 console.log(wiz_Keys.length);
-console.log(typeof(wiz_Keys[0]));
+console.log(typeof (wiz_Keys[0]));
 
 console.log('----- Object.values - to get all values in an array -----');
 let wiz_Values = Object.values(wizard);
@@ -27,15 +27,15 @@ for (let arr of wiz_pairs) {
 }
 
 //print the name if name exists in the properties
-for(let w in wizard){
-    if('name' in wizard){
+for (let w in wizard) {
+    if ('name' in wizard) {
         console.log(wizard.name);
         break;
     }
 }
 
-for(let w in wizard){
-    if(wizard[w] === 'headmaster'){
+for (let w in wizard) {
+    if (wizard[w] === 'headmaster') {
         console.log(w);
     }
 }

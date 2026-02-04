@@ -47,7 +47,7 @@ console.log('==========Function with default parameters==========');
 
 function myLogin(un = null, pwd = null) {
     if (un && pwd) {
-        console.log('login with ' + un +' ' + pwd);
+        console.log('login with ' + un + ' ' + pwd);
     } else {
         console.log('not allowed');
     }
@@ -61,7 +61,7 @@ let login1 = function login() {
     console.log('login to app1');
 }
 
-let login2 = function login(a){
+let login2 = function login(a) {
     console.log('login to app2 +' + a);
 }
 

@@ -8,12 +8,12 @@ testing(); // correct
 console.log('-------------------------');
 //function expression with params
 
-let add = function addingTwoNumbers(a,b){
+let add = function addingTwoNumbers(a, b) {
     let sum = a + b;
     return sum;
 }
 
-let s1 = add(400,200);
+let s1 = add(400, 200);
 console.log(s1);
 console.log(add.name);
 
@@ -23,7 +23,7 @@ console.log('-------------------------');
  * @param {string} strBrowserName 
  * @returns {boolean}
  */
-let launchBrowser = function openBrowser(strBrowserName){
+let launchBrowser = function openBrowser(strBrowserName) {
     console.log('Browser name is ' + strBrowserName);
     switch (strBrowserName.trim().toLowerCase()) {
         case 'chrome':
@@ -38,8 +38,8 @@ let launchBrowser = function openBrowser(strBrowserName){
     }
 }
 console.log(launchBrowser.name);
-if(launchBrowser('chrome')){
+if (launchBrowser('chrome')) {
     console.log('enter URL');
-}else{
+} else {
     console.log('no need to enter URL');
 }
