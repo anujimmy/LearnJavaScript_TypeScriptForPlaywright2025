@@ -86,5 +86,14 @@ let performOps = (a, b, operationFn) => {
 const result = performOps(100.003, 100, (x, y) => x * y);
 console.log(result);
 
+console.log('######################');
+
+function performCalc(a, b, funcName1, funcName2) {
+    console.log(funcName1(a, b));
+    console.log(funcName2(a, b));
+};
+
+performCalc(10, 2, sum, diff);
+performCalc(10, 2, sum, (a, b) => a ** b);
 
 
