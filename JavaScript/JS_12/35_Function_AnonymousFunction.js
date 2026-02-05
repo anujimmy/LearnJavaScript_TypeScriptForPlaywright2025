@@ -3,7 +3,7 @@
 let check = function check() { //named function
     console.log('check data');
 }
-// say();  - refernce error - cannot accces say before initialization : only named fns can be hoisted
+// say();  - reference error - cannot accces say before initialization : only named fns can be hoisted
 let say = function () { // anonymous fn with function expression
     console.log('hello world');
 }

@@ -67,4 +67,4 @@ let checkEnv = (envName, browserVersion) => {
     console.log('env name - ' + envName);
     console.log('browser version - ' + browserVersion);
 };
-checkEnv('QA','125.11.12.56');
+checkEnv('QA', '125.11.12.56');
