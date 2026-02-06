@@ -45,6 +45,10 @@ this project showcases my learning journey of coding language - JavaScript & Typ
 
     JS_13    - Function within Object & Callback functions
 
+    JS_14    - Array Methods - map, filter, reduce, combination of multiple functions 
+             - Array destructuring
+             - Object destructuring
+
     
     
 
