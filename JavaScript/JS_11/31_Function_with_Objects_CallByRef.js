@@ -1,4 +1,5 @@
-function getProductDetails(objRefProductData) {   // objRefProductData = product
+function getProductDetails (objRefProductData)
+{   // objRefProductData = product
     console.log(objRefProductData);
     objRefProductData.price = 2000; // 2 references for same object - objRefProductData & product
 }
@@ -14,4 +15,4 @@ let product = {
 
 getProductDetails(product); //call by Ref - product here is a reference in stack & the object is in heap. 
 
-console.log(product.price);
+console.log(product.price); // 2000
