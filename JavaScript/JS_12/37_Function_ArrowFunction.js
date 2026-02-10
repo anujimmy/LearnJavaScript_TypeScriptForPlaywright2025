@@ -1,4 +1,4 @@
-// Arrow function - no function name --- > aka 'anonymous function
+// Arrow function - no function name --- > also an 'anonymous' function
 
 
 let print = () => {
