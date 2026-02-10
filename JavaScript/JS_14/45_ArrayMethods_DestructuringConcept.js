@@ -33,3 +33,7 @@ let [head, ...tail] = numbers;
 console.log(head);
 console.log(tail);
 
+// second element is not needed
+let [firstName, , title] = ["Julius", "Caesar", "Consul", "of the Roman Republic"];
+
+ console.log(title); // Consul
