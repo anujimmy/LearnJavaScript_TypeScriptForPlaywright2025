@@ -7,13 +7,12 @@ function startMachine (callback)
 
 }
 //arrow function
-startMachine(() =>
-{
+startMachine(() =>{
     console.log('Machine is started !!!!');
 });
+
 //anonymous function
-startMachine(function () 
-{
+startMachine(function () {
     console.log('Machine is starting...Plz wait!!!');
 });
 
