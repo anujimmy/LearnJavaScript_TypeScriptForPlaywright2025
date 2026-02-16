@@ -71,7 +71,6 @@ async function makeCoffee() {
 
 makeCoffee();
 
-
 //AC: fetch the data from APO
 //get call : url
 //response
