@@ -1,18 +1,4 @@
-let myPromise = new Promise((callbackA_Resolve, callbackB_Reject) => {
-    console.log('start the promise .....');
-    let success = false;
-    if (success){
-        callbackA_Resolve('training is done');
-    }else{
-        callbackB_Reject('failed !!!');
-    }
-});
 
-myPromise.then(error =>{
-    console.log(error);
-}).catch(result => {
-    console.log(result);
-})
 
 let myCakePromise = new Promise((cbFn_Resolve,cbfn_Reject) =>{
     console.log('Cake Ordered & Baking Started');
@@ -34,3 +20,16 @@ myCakePromise
 })
 
 // myCakePromise.then(result => console.log(result),error => console.log(error));
+
+let myPromise = new Promise((resolve, reject) => {
+    // setTimeout(()=> resolve("done"),1000);
+    setTimeout(() => reject('mission failed!!'),500);
+});
+
+/*myPromise.then((result) => {
+    console.log(result);
+},(error) => {
+    console.log(error);
+});*/
+
+myPromise.catch(error);
