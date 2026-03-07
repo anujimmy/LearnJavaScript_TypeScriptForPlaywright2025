@@ -18,10 +18,10 @@ function getUser(iUser){
 //       console.log(error);
 // });
 
-async function userDetails(){
+async function displayUserDetails(){
       try{
             console.log('getting user info....');
-            let ifUserFound = await getUser('joseph'); //user is updated only if promise is resolved.
+            let ifUserFound = await getUser('joseph'); //ifUserFound is updated only if promise is resolved. So we need a try catch block to avoin unhandled exceptions
             console.log('User : '+ ifUserFound);
       }
       catch(error){
@@ -31,4 +31,4 @@ async function userDetails(){
       
 }
 
-userDetails();
+displayUserDetails();

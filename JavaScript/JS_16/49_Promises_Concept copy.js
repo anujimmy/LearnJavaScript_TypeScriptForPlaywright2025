@@ -17,19 +17,23 @@ myCakePromise
     console.log(rejected);
 }).finally(()=>{
     console.log('Lets Partyyyy')
+}).finally(()=>{
+    console.log('bye !!!');
 })
 
 // myCakePromise.then(result => console.log(result),error => console.log(error));
 
 let myPromise = new Promise((resolve, reject) => {
-    // setTimeout(()=> resolve("done"),1000);
+    setTimeout(()=> resolve("done"),1000);
     setTimeout(() => reject('mission failed!!'),500);
 });
 
-/*myPromise.then((result) => {
+myPromise.then((result) => {
     console.log(result);
 },(error) => {
     console.log(error);
-});*/
+});
 
-myPromise.catch(error);
+myPromise.catch((error) =>{
+    console.log(error);
+});

@@ -3,7 +3,7 @@ async function getUser(){
       return new Promise(iRes => {
             setTimeout(() => {
                  iRes({id :1,name :'joseph'}); //{id :1,name :'joseph'} is an object
-            }, 200);
+            }, 1500);
       });
 }
 
@@ -20,13 +20,42 @@ async function getOrders() {
                         {orderID : 101,item : ['laptop']},
                         {orderID : 609,item : ['jeans','top']}
                   ]);
-            }, 500);
+            }, 2000);
       });
 }
-//2 tasks : parallel execution
-let promiseOrders = getOrders(); // prOrders is a promise until we write await. when we write await it returns the value.
-let promiseUsers = getUser();
+// //case 1
+// //2 tasks : parallel execution - total time is 2 secs max of (1.5 & 2 secs)
+// let promiseOrders = getOrders(); // prOrders is a promise until we write await. when we write await it returns the value.
+// let promiseUsers = getUser();
 
-let [order,user] = await Promise.all([promiseOrders,promiseUsers]);
-console.log(user);
-console.log(object);
+// let data = await Promise.all([promiseUsers,promiseOrders]);
+// console.log(data);
+// console.log('**************************');
+
+// let [user,orders] = await Promise.all([promiseUsers,promiseOrders]);
+// console.log(user);
+// console.log(orders);
+
+////case 2 : if await is used. -> sequential execution
+
+let myUser = await getUser(); // takes 1.5 secs, myUser is value and not a Promise
+let myOrders = await getOrders();// takes 2 secs after executing getUser
+let data = await Promise.all([myUser,myOrders]);
+////total time is 1.5 + 2 = 3.5 secs
+console.log(data);
+
+//// case 3 : dont wait for anything just proceed: dont use await while calling
+
+async function sendEmailNotification(emailID) {
+      return new Promise((resolve)=>{
+            setTimeout(() => {
+                  console.log(`email has been sent to ${emailID}`);
+                  resolve(true);
+            }, 5000);
+      })
+};
+
+//calling it
+let isEmailSent = sendEmailNotification('abc@def.com')
+console.log(isEmailSent);
+console.log('checkout the order ---DONE!!!');
